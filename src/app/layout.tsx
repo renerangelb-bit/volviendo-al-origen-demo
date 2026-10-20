@@ -21,6 +21,7 @@ const montserrat = localFont({
 });
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: false },
   metadataBase: new URL(SITE.url),
   title: {
     default: 'Volviendo al Origen | Cosmética sólida artesanal de Aguascalientes',
